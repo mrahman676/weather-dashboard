@@ -12,4 +12,17 @@ fetch(FCApiURL)
     console.log('rejected', err);   
   });
 
+  $(document).ready(function() {
+    $('#search-button').click(function(event) {
+        event.preventDefault();
+        console.log('button click works');
+    });
+});
+
+
   
+
+   // document.getElementById('.today') = data.name;
+    // document.getElementById('.today') = data.main.temp;
+    // document.getElementById('.today') = data.wind;
+    // document.getElementById('.today') = data.main.humidity;
